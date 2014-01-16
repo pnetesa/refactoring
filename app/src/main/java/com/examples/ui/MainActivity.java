@@ -268,9 +268,11 @@ public class MainActivity extends Activity {
     	return onMenuItemSelected(item);
     }
 
-	private boolean onMenuItemSelected(MenuItem item) {
-		if (item.getItemId() == R.id.menu_exit)
-    		System.exit(0);
-		return true;
-	}
+    private boolean onMenuItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.menu_exit)
+            System.exit(0);
+        else if (item.getItemId() == R.id.menu_clear)
+            mOutput.setText("");
+        return true;
+    }
 }
