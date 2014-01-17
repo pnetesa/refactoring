@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._04_ReplaceTempWithQuery;
+import com.examples._05_IntroduceExplainingVariable;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -156,7 +156,8 @@ public class MainActivity extends Activity {
 //                    _01_ExtractMethod.main(new String[0]);
 //                    _02_InlineMethod.main(new String[0]);
 //                    _03_InlineTemp.main(new String[0]);
-                    _04_ReplaceTempWithQuery.main(new String[0]);
+//                    _04_ReplaceTempWithQuery.main(new String[0]);
+                    _05_IntroduceExplainingVariable.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
