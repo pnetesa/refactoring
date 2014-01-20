@@ -32,7 +32,7 @@ public class _01_ExtractMethod {
 
     static class Before {
 
-        private String mName = "Before";
+        private String mName = "Before1";
 
         private void printBanner() {
         }
@@ -48,7 +48,7 @@ public class _01_ExtractMethod {
 
     static class After {
 
-        private String mName = "After";
+        private String mName = "After1";
 
         private void printBanner() {
         }
@@ -66,7 +66,7 @@ public class _01_ExtractMethod {
 
     static class Before2 {
 
-        private String mName = "Before";
+        private String mName = "Before1";
         private List<Order> mOrders = new ArrayList<Order>(
                 Arrays.asList(new Order(1234.56), new Order(65.1234), new Order(987.654)));
 
@@ -92,7 +92,7 @@ public class _01_ExtractMethod {
 
     static class After2 {
 
-        private String mName = "After";
+        private String mName = "After1";
         private List<Order> mOrders = new ArrayList<Order>(
                 Arrays.asList(new Order(1234.56), new Order(65.1234), new Order(987.654)));
 
