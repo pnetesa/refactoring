@@ -19,13 +19,14 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._05_IntroduceExplainingVariable;
+import com.examples._06_SplitTemporaryVariable;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends Activity {
 	
@@ -148,6 +149,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void run() {
 		    	try {
+                    closeAfter(60);
 			    	//
 			    	// Console program execution starts here
 			    	//
@@ -157,7 +159,8 @@ public class MainActivity extends Activity {
 //                    _02_InlineMethod.main(new String[0]);
 //                    _03_InlineTemp.main(new String[0]);
 //                    _04_ReplaceTempWithQuery.main(new String[0]);
-                    _05_IntroduceExplainingVariable.main(new String[0]);
+//                    _05_IntroduceExplainingVariable.main(new String[0]);
+                    _06_SplitTemporaryVariable.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
@@ -167,13 +170,38 @@ public class MainActivity extends Activity {
     	executor.shutdown();
     	mIsDone = true;
 	}
-    
+
+    private void closeAfter(final int seconds) {
+
+        Thread t = new Thread() {
+
+            @Override
+            public void run() {
+
+                try {
+                    Thread.sleep(TimeUnit.SECONDS.toMillis(seconds));
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                mGuiThread.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        MainActivity.this.finish();
+                    }
+                });
+            }
+        };
+        t.start();
+
+    }
+
     @Override
     protected void onSaveInstanceState(Bundle outState) {
     	// Save input state
     	outState.putBoolean(KEY_IS_WAITS_INPUT, mIsWaitsInput);
     	outState.putCharSequence(KEY_INPUT_TEXT, mInput.getText());
-    	
+
     	// Output text state
     	outState.putBoolean(KEY_IS_DONE, mIsDone);
     	outState.putCharSequence(KEY_OUTPUT_TEXT, mOutput.getText());
