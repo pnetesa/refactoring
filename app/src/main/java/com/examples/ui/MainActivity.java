@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._06_SplitTemporaryVariable;
+import com.examples._08_ReplaceMethodWithMethodObject;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -160,7 +160,9 @@ public class MainActivity extends Activity {
 //                    _03_InlineTemp.main(new String[0]);
 //                    _04_ReplaceTempWithQuery.main(new String[0]);
 //                    _05_IntroduceExplainingVariable.main(new String[0]);
-                    _06_SplitTemporaryVariable.main(new String[0]);
+//                    _06_SplitTemporaryVariable.main(new String[0]);
+//                    _07_RemoveAssignmentsToParameters.main(new String[0]);
+                    _08_ReplaceMethodWithMethodObject.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
