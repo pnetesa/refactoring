@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._10_MoveMethod;
+import com.examples._11_MoveField;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -164,7 +164,8 @@ public class MainActivity extends Activity {
 //                    _07_RemoveAssignmentsToParameters.main(new String[0]);
 //                    _08_ReplaceMethodWithMethodObject.main(new String[0]);
 //                    _09_SubstituteAlgorithm.main(new String[0]);
-                    _10_MoveMethod.main(new String[0]);
+//                    _10_MoveMethod.main(new String[0]);
+                    _11_MoveField.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
