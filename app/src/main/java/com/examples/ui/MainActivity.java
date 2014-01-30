@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._13_InlineClass;
+import com.examples._17_IntroduceLocalExtension;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -167,7 +167,11 @@ public class MainActivity extends Activity {
 //                    _10_MoveMethod.main(new String[0]);
 //                    _11_MoveField.main(new String[0]);
 //                    _12_ExtractClass.main(new String[0]);
-                    _13_InlineClass.main(new String[0]);
+//                    _13_InlineClass.main(new String[0]);
+//                    _14_HideDelegate.main(new String[0]);
+//                    _15_RemoveMiddleMan.main(new String[0]);
+//                    _16_IntroduceForeignMethod.main(new String[0]);
+                    _17_IntroduceLocalExtension.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
