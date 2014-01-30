@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._17_IntroduceLocalExtension;
+import com.examples._18_SelfEncapsulateField;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -171,7 +171,8 @@ public class MainActivity extends Activity {
 //                    _14_HideDelegate.main(new String[0]);
 //                    _15_RemoveMiddleMan.main(new String[0]);
 //                    _16_IntroduceForeignMethod.main(new String[0]);
-                    _17_IntroduceLocalExtension.main(new String[0]);
+//                    _17_IntroduceLocalExtension.main(new String[0]);
+                    _18_SelfEncapsulateField.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
@@ -219,7 +220,7 @@ public class MainActivity extends Activity {
     	
     	super.onSaveInstanceState(outState);
     }
-    
+
     @Override
     protected void onRestoreInstanceState(Bundle savedState) {
     	super.onRestoreInstanceState(savedState);
