@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._18_SelfEncapsulateField;
+import com.examples._22_ReplaceArrayWithObject;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -172,7 +172,11 @@ public class MainActivity extends Activity {
 //                    _15_RemoveMiddleMan.main(new String[0]);
 //                    _16_IntroduceForeignMethod.main(new String[0]);
 //                    _17_IntroduceLocalExtension.main(new String[0]);
-                    _18_SelfEncapsulateField.main(new String[0]);
+//                    _18_SelfEncapsulateField.main(new String[0]);
+//                    _19_ReplaceDataValueWithObject.main(new String[0]);
+//                    _20_ChangeValueToReference.main(new String[0]);
+//                    _21_ChangeReferenceToValue.main(new String[0]);
+                    _22_ReplaceArrayWithObject.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
