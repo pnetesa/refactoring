@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._22_ReplaceArrayWithObject;
+import com.examples._25_ChangeBidirectionalAsscociationToUnidirectional;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -176,7 +176,9 @@ public class MainActivity extends Activity {
 //                    _19_ReplaceDataValueWithObject.main(new String[0]);
 //                    _20_ChangeValueToReference.main(new String[0]);
 //                    _21_ChangeReferenceToValue.main(new String[0]);
-                    _22_ReplaceArrayWithObject.main(new String[0]);
+//                    _22_ReplaceArrayWithObject.main(new String[0]);
+//                    _24_ChangeUnidirectionalAsscociationToBidirectional.main(new String[0]);
+                    _25_ChangeBidirectionalAsscociationToUnidirectional.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
