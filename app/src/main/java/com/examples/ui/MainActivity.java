@@ -20,6 +20,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.examples._30_ReplaceTypeCodeWithClass;
+import com.examples._31_ReplaceTypeCodeWithSubclasses;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -183,7 +184,8 @@ public class MainActivity extends Activity {
 //                    _27_EncapsulateField.main(new String[0]);
 //                    _28_EncapsulateCollection.main(new String[0]);
 //                    _29_EncapsulateArray.main(new String[0]);
-                    _30_ReplaceTypeCodeWithClass.main(new String[0]);
+//                    _30_ReplaceTypeCodeWithClass.main(new String[0]);
+                    _31_ReplaceTypeCodeWithSubclasses.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
