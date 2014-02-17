@@ -19,8 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._30_ReplaceTypeCodeWithClass;
-import com.examples._31_ReplaceTypeCodeWithSubclasses;
+import com.examples._34_DecomposeConditional;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -185,7 +184,10 @@ public class MainActivity extends Activity {
 //                    _28_EncapsulateCollection.main(new String[0]);
 //                    _29_EncapsulateArray.main(new String[0]);
 //                    _30_ReplaceTypeCodeWithClass.main(new String[0]);
-                    _31_ReplaceTypeCodeWithSubclasses.main(new String[0]);
+//                    _31_ReplaceTypeCodeWithSubclasses.main(new String[0]);
+//                    _32_ReplaceTypeCodeWithStateStrategy.main(new String[0]);
+//                    _33_ReplaceSubclassWithFields.main(new String[0]);
+                    _34_DecomposeConditional.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
