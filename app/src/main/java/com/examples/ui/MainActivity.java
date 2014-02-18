@@ -19,7 +19,8 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._34_DecomposeConditional;
+import com.examples._36_ConsolidateDuplicateConditionalFragments;
+import com.examples._37_RemoveControlFlag;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -187,7 +188,10 @@ public class MainActivity extends Activity {
 //                    _31_ReplaceTypeCodeWithSubclasses.main(new String[0]);
 //                    _32_ReplaceTypeCodeWithStateStrategy.main(new String[0]);
 //                    _33_ReplaceSubclassWithFields.main(new String[0]);
-                    _34_DecomposeConditional.main(new String[0]);
+//                    _34_DecomposeConditional.main(new String[0]);
+//                    _35_ConsolidateConditionalExpression.main(new String[0]);
+//                    _36_ConsolidateDuplicateConditionalFragments.main(new String[0]);
+                    _37_RemoveControlFlag.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
