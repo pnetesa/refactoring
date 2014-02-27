@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._43_SeparateQueryFromModifier;
+import com.examples._44_ParameterizeMethod;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -196,7 +196,8 @@ public class MainActivity extends Activity {
 //                    _40_IntroduceNullObject.main(new String[0]);
 //                    _41_IntroduceAssertion.main(new String[0]);
 //                    _42_RenameMethod.main(new String[0]);
-                    _43_SeparateQueryFromModifier.main(new String[0]);
+//                    _43_SeparateQueryFromModifier.main(new String[0]);
+                    _44_ParameterizeMethod.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
