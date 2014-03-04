@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._46_PreserveWholeObject;
+import com.examples._48_IntroduceParameterObject;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -199,7 +199,9 @@ public class MainActivity extends Activity {
 //                    _43_SeparateQueryFromModifier.main(new String[0]);
 //                    _44_ParameterizeMethod.main(new String[0]);
 //                    _45_ReplaceParameterWithExplicitMethods.main(new String[0]);
-                    _46_PreserveWholeObject.main(new String[0]);
+//                    _46_PreserveWholeObject.main(new String[0]);
+//                    _47_ReplaceParameterWithMethod.main(new String[0]);
+                    _48_IntroduceParameterObject.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
