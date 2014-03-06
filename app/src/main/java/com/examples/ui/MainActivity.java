@@ -19,8 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._48_IntroduceParameterObject;
-import com.examples._49_RemoveSettingMethod;
+import com.examples._50_ReplaceConstructorWithFactoryMethod;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -203,7 +202,8 @@ public class MainActivity extends Activity {
 //                    _46_PreserveWholeObject.main(new String[0]);
 //                    _47_ReplaceParameterWithMethod.main(new String[0]);
 //                    _48_IntroduceParameterObject.main(new String[0]);
-                    _49_RemoveSettingMethod.main(new String[0]);
+//                    _49_RemoveSettingMethod.main(new String[0]);
+                    _50_ReplaceConstructorWithFactoryMethod.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
