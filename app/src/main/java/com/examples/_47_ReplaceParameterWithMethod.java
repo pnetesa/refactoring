@@ -1,8 +1,8 @@
 package com.examples;
 
-import static com.examples.util.Print.print;
+    import static com.examples.util.Print.print;
 
-public class _47_ReplaceParameterWithMethod {
+    public class _47_ReplaceParameterWithMethod {
 
 	public static void main(String[] args) {
 
