@@ -19,8 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._52_ReplaceErrorCodeWithException;
-import com.examples._53_ReplaceExceptionWithTest;
+import com.examples._54_PullUpMethod;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -207,7 +206,8 @@ public class MainActivity extends Activity {
 //                    _50_ReplaceConstructorWithFactoryMethod.main(new String[0]);
 //                    _51_EncapsulateDowncast.main(new String[0]);
 //                    _52_ReplaceErrorCodeWithException.main(new String[0]);
-                    _53_ReplaceExceptionWithTest.main(new String[0]);
+//                    _53_ReplaceExceptionWithTest.main(new String[0]);
+                    _54_PullUpMethod.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
