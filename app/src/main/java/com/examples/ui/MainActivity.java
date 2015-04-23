@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.examples._54_PullUpMethod;
+import com.examples.*;
 import com.examples.ui.UIInputStream.OnInputWaitsListener;
 
 import java.io.OutputStream;
@@ -207,7 +207,10 @@ public class MainActivity extends Activity {
 //                    _51_EncapsulateDowncast.main(new String[0]);
 //                    _52_ReplaceErrorCodeWithException.main(new String[0]);
 //                    _53_ReplaceExceptionWithTest.main(new String[0]);
-                    _54_PullUpMethod.main(new String[0]);
+//                    _54_PullUpMethod.main(new String[0]);
+//                    _55_PullUpConstructorBody.main(new String[0]);
+//                    _56_PushDownMethod.main(new String[0]);
+                    _57_PushDownField.main(new String[0]);
 		    	} catch (Throwable ex) {
 		        	setErrorColor();
 		    		ex.printStackTrace();
